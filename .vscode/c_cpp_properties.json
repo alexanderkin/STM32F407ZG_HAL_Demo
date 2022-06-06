@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/User/**",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/**",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/**",
+                "${workspaceFolder}/FreeRTOS/include/**",
+                "D:/Keil_v5/ARM/Packs/ARM/CMSIS/5.8.0/CMSIS/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
